@@ -5,4 +5,8 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class AccountServiceFallback implements AccountService {
+    @Override
+    public String findByName(String name) {
+        return "default name";
+    }
 }

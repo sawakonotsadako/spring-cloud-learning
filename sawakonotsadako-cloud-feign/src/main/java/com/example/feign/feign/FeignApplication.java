@@ -1,5 +1,6 @@
 package com.example.feign.feign;
 
+import com.example.feign.feign.micro.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,10 +19,10 @@ public class FeignApplication {
 	}
 
 	@Autowired
-	FeignCustomerService feignCustomerService;
+	AccountService accountService;
 
 	@RequestMapping("/feign/customer/{name}")
 	public String findCustomerByFeign(@PathVariable(name = "name") String name) {
-		return feignCustomerService.findCustomer(name);
+		return accountService.findByName(name);
 	}
 }
