@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+  <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-api-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-eureka-server" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-zuul" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sawakonotsadako-service-account" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sawakonotsadako-service-notification" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/sawakonotsadako-service-post" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-feign-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sawakonotsadako-cloud-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sawakonotsadako-service-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sawakonotsadako-service-product" charset="UTF-8" />
   </component>
 </project>

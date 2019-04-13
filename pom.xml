@@ -13,11 +13,11 @@
     <modules>
         <module>sawakonotsadako-cloud-eureka-server</module>
         <module>sawakonotsadako-cloud-config-server</module>
-        <module>sawakonotsadako-cloud-feign</module>
-        <module>sawakonotsadako-cloud-zuul</module>
-        <module>sawakonotsadako-service-account</module>
-        <module>sawakonotsadako-service-post</module>
-        <module>sawakonotsadako-service-notification</module>
+        <module>sawakonotsadako-cloud-feign-client</module>
+        <module>sawakonotsadako-cloud-hystrix-dashboard</module>
+        <module>sawakonotsadako-cloud-api-gateway</module>
+        <module>sawakonotsadako-service-order</module>
+        <module>sawakonotsadako-service-product</module>
     </modules>
 
     <properties>

@@ -6,35 +6,45 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sawakonotsadako-cloud-config-server" />
-        <module name="sawakonotsadako-cloud-eureka-server" />
-        <module name="sawakonotsadako-cloud-feign" />
-        <module name="sawakonotsadako-cloud-zuul" />
-        <module name="sawakonotsadako-service-account" />
+        <module name="sawakonotsadako-service-order" />
         <module name="sawakonotsadako-service-notification" />
+        <module name="sawakonotsadako-cloud-config-server" />
+        <module name="sawakonotsadako-cloud-hystrix-dashboard" />
+        <module name="sawakonotsadako-cloud-eureka-server" />
         <module name="sawakonotsadako-service-post" />
+        <module name="sawakonotsadako-cloud-feign-client" />
+        <module name="sawakonotsadako-service-product" />
+        <module name="sawakonotsadako-cloud-api-gateway" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="parent" target="1.8" />
+      <module name="sawakonotsadako-cloud-api-gateway" target="1.8" />
+      <module name="sawakonotsadako-cloud-bus" target="1.8" />
+      <module name="sawakonotsadako-cloud-config-client" target="1.8" />
       <module name="sawakonotsadako-cloud-config-server" target="1.8" />
       <module name="sawakonotsadako-cloud-eureka-server" target="1.8" />
-      <module name="sawakonotsadako-cloud-feign" target="1.8" />
-      <module name="sawakonotsadako-cloud-zuul" target="1.8" />
-      <module name="sawakonotsadako-service-account" target="1.8" />
+      <module name="sawakonotsadako-cloud-feign-client" target="1.8" />
+      <module name="sawakonotsadako-cloud-hystrix-dashboard" target="1.8" />
       <module name="sawakonotsadako-service-notification" target="1.8" />
+      <module name="sawakonotsadako-service-order" target="1.8" />
       <module name="sawakonotsadako-service-post" target="1.8" />
+      <module name="sawakonotsadako-service-product" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sawakonotsadako-cloud-api-gateway" options="-parameters" />
+      <module name="sawakonotsadako-cloud-bus" options="-parameters" />
+      <module name="sawakonotsadako-cloud-config-client" options="-parameters" />
       <module name="sawakonotsadako-cloud-config-server" options="-parameters" />
       <module name="sawakonotsadako-cloud-eureka-server" options="-parameters" />
-      <module name="sawakonotsadako-cloud-feign" options="-parameters" />
-      <module name="sawakonotsadako-cloud-zuul" options="-parameters" />
-      <module name="sawakonotsadako-service-account" options="-parameters" />
+      <module name="sawakonotsadako-cloud-feign-client" options="-parameters" />
+      <module name="sawakonotsadako-cloud-hystrix-dashboard" options="-parameters" />
       <module name="sawakonotsadako-service-notification" options="-parameters" />
+      <module name="sawakonotsadako-service-order" options="-parameters" />
       <module name="sawakonotsadako-service-post" options="-parameters" />
+      <module name="sawakonotsadako-service-product" options="-parameters" />
     </option>
   </component>
 </project>

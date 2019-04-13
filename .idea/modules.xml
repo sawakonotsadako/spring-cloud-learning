@@ -3,13 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-api-gateway/sawakonotsadako-cloud-api-gateway.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-api-gateway/sawakonotsadako-cloud-api-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-config-server/sawakonotsadako-cloud-config-server.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-config-server/sawakonotsadako-cloud-config-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-eureka-server/sawakonotsadako-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-eureka-server/sawakonotsadako-cloud-eureka-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-feign/sawakonotsadako-cloud-feign.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-feign/sawakonotsadako-cloud-feign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-zuul/sawakonotsadako-cloud-zuul.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-zuul/sawakonotsadako-cloud-zuul.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-service-account/sawakonotsadako-service-account.iml" filepath="$PROJECT_DIR$/sawakonotsadako-service-account/sawakonotsadako-service-account.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-service-notification/sawakonotsadako-service-notification.iml" filepath="$PROJECT_DIR$/sawakonotsadako-service-notification/sawakonotsadako-service-notification.iml" />
-      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-service-post/sawakonotsadako-service-post.iml" filepath="$PROJECT_DIR$/sawakonotsadako-service-post/sawakonotsadako-service-post.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-feign-client/sawakonotsadako-cloud-feign-client.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-feign-client/sawakonotsadako-cloud-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-hystrix-dashboard/sawakonotsadako-cloud-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-hystrix-dashboard/sawakonotsadako-cloud-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-service-order/sawakonotsadako-service-order.iml" filepath="$PROJECT_DIR$/sawakonotsadako-service-order/sawakonotsadako-service-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-service-product/sawakonotsadako-service-product.iml" filepath="$PROJECT_DIR$/sawakonotsadako-service-product/sawakonotsadako-service-product.iml" />
     </modules>
   </component>
 </project>
