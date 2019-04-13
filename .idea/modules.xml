@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-config-server/sawakonotsadako-cloud-config-server.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-config-server/sawakonotsadako-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-eureka-server/sawakonotsadako-cloud-eureka-server.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-eureka-server/sawakonotsadako-cloud-eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-feign/sawakonotsadako-cloud-feign.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-feign/sawakonotsadako-cloud-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-cloud-zuul/sawakonotsadako-cloud-zuul.iml" filepath="$PROJECT_DIR$/sawakonotsadako-cloud-zuul/sawakonotsadako-cloud-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-service-account/sawakonotsadako-service-account.iml" filepath="$PROJECT_DIR$/sawakonotsadako-service-account/sawakonotsadako-service-account.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-service-notification/sawakonotsadako-service-notification.iml" filepath="$PROJECT_DIR$/sawakonotsadako-service-notification/sawakonotsadako-service-notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sawakonotsadako-service-post/sawakonotsadako-service-post.iml" filepath="$PROJECT_DIR$/sawakonotsadako-service-post/sawakonotsadako-service-post.iml" />
+    </modules>
+  </component>
+</project>
